@@ -9,8 +9,6 @@ def is_prime(n):
   return True
 
 if __name__ == "__main__":
-  num = 2
-  while num > 0:
+  while True:
     num = int(input('> '))
-    if num > 1:
-      print(prime_factorization(num))
+    print(is_prime(num))
