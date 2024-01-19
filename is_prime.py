@@ -7,8 +7,8 @@ def is_prime(n):
   return True
 
 if __name__ == "__main__":
-  num = 2
-  while num > 1:
-    num = int(input('> '))
-    if num > 1:
-      print(is_prime(num))
+  num = int(input('> '))
+  if num > 1:
+    print(is_prime(num))
+  else:
+    print(boolean(False))
