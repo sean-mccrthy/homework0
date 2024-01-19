@@ -10,8 +10,6 @@ def prime_factorization(n):
   return nums
 
 if __name__ == "__main__":
-  num = 2
-  while num > 1:
+  while True:
     num = int(input('> '))
-    if num > 1:
-      print(prime_factorization(num))
+    print(prime_factorization(num))
